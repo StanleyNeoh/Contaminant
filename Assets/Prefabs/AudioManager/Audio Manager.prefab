@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &902962074259305325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902962074259305327}
+  - component: {fileID: 902962074259305326}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &902962074259305327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902962074259305325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -110.24755, y: 113.73427, z: 425.2156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &902962074259305326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902962074259305325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34046412ddc36914eb0308a26dac81db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - Name: Rifle Shoot
+    Clip: {fileID: 8300000, guid: 93b7dd16af071064b8715eae4b1c9bd7, type: 3}
+    Volume: 0.35
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Cube Jump
+    Clip: {fileID: 8300000, guid: 5da85ce3a68a74105b8298eb64c11e73, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Cube Land
+    Clip: {fileID: 8300000, guid: 29f1578b1dd644bc68d3b0e95fc5fefe, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Grenade Exploded
+    Clip: {fileID: 8300000, guid: fc96116dc3c141440aabb5605744fea2, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Grenade Shoot
+    Clip: {fileID: 8300000, guid: 99351ac5c824290429bfc9746056b1b7, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: In Game Music
+    Clip: {fileID: 8300000, guid: 5ecacb1d89ff2e940969b46fb071cdda, type: 3}
+    Volume: 0.3
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Rainbow Spray
+    Clip: {fileID: 8300000, guid: 6e1a9234cf91969408ad971e7a8b46e4, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: ShotGun Shoot
+    Clip: {fileID: 8300000, guid: fccc46974bfb74a4498b8793b264e90c, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Door Sliding
+    Clip: {fileID: 8300000, guid: 72a53cf1d4e6cbd44b5a5907d6f58fa2, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Oof Mid
+    Clip: {fileID: 8300000, guid: 71e82bdd69e0b6849a8ea0ae9db0525f, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Click Hurt
+    Clip: {fileID: 8300000, guid: b43d102aac6b145468dcaa94a5cccae1, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Click Hurt 2
+    Clip: {fileID: 8300000, guid: b43d102aac6b145468dcaa94a5cccae1, type: 3}
+    Volume: 1
+    Pitch: 0.5
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Contamination1
+    Clip: {fileID: 8300000, guid: e73833e5499cc9347990af181aa85418, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Contamination2
+    Clip: {fileID: 8300000, guid: ff8f9a6585e831c489801ebb86bff7f7, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Number
+    Clip: {fileID: 8300000, guid: 4c7b9eddf1b2a6e4986faba601cd2d59, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Door Unlocked
+    Clip: {fileID: 8300000, guid: 640a18167f2c6654d8ed77e98208d4ac, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: New Weapon
+    Clip: {fileID: 8300000, guid: 91dd03bf14d1c204aafb5e6a88c24ee8, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Mutation
+    Clip: {fileID: 8300000, guid: c1a1255de1278354a8706e4707ef9f09, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Pick Up Health Pack
+    Clip: {fileID: 8300000, guid: 77ea6813eafb24218955eb3a26fe40fb, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Change Weapon
+    Clip: {fileID: 8300000, guid: 126a7914023294e2faf8108acc1e9a71, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
